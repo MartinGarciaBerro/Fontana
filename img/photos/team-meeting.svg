@@ -1,0 +1,55 @@
+<!-- Imagen de reunión de equipo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Fondo de sala de conferencias -->
+  <defs>
+    <linearGradient id="meetingBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#meetingBg)"/>
+  
+  <!-- Mesa de conferencias -->
+  <ellipse cx="400" cy="350" rx="300" ry="80" fill="#8b5cf6" opacity="0.2"/>
+  <ellipse cx="400" cy="340" rx="300" ry="80" fill="#a78bfa" opacity="0.1"/>
+  
+  <!-- Personas alrededor de la mesa -->
+  <!-- Persona 1 -->
+  <circle cx="200" cy="300" r="25" fill="#fbbf24"/>
+  <rect x="190" y="325" width="20" height="40" fill="#1e3a8a"/>
+  
+  <!-- Persona 2 -->
+  <circle cx="300" cy="280" r="25" fill="#f59e0b"/>
+  <rect x="290" y="305" width="20" height="40" fill="#1e40af"/>
+  
+  <!-- Persona 3 -->
+  <circle cx="400" cy="270" r="25" fill="#fbbf24"/>
+  <rect x="390" y="295" width="20" height="40" fill="#1e3a8a"/>
+  
+  <!-- Persona 4 -->
+  <circle cx="500" cy="280" r="25" fill="#f59e0b"/>
+  <rect x="490" y="305" width="20" height="40" fill="#1e40af"/>
+  
+  <!-- Persona 5 -->
+  <circle cx="600" cy="300" r="25" fill="#fbbf24"/>
+  <rect x="590" y="325" width="20" height="40" fill="#1e3a8a"/>
+  
+  <!-- Laptops en la mesa -->
+  <rect x="250" y="320" width="60" height="40" fill="#374151" rx="4"/>
+  <rect x="350" y="320" width="60" height="40" fill="#374151" rx="4"/>
+  <rect x="450" y="320" width="60" height="40" fill="#374151" rx="4"/>
+  
+  <!-- Documentos -->
+  <rect x="180" y="330" width="40" height="30" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  <rect x="580" y="330" width="40" height="30" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- Ventanas de fondo -->
+  <rect x="50" y="50" width="700" height="150" fill="#3b82f6" opacity="0.1"/>
+  <rect x="100" y="100" width="600" height="50" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Texto -->
+  <text x="400" y="500" text-anchor="middle" font-family="Arial, sans-serif" 
+        font-size="22" font-weight="600" fill="#1e3a8a">
+    Equipo Profesional Trabajando Juntos
+  </text>
+</svg>
