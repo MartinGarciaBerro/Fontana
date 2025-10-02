@@ -13,6 +13,7 @@
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     
     <!-- FontAwesome 6 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,16 +22,15 @@
     <link rel="stylesheet" href="css/styles.css">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="alternate icon" href="img/favicon.ico">
 </head>
 <body>
     <!-- Header y Navegación -->
     <header class="header">
         <nav class="nav container"><!-- Refuerzo estructura navegable -->
-            <a href="index.html" class="logo">
-                <i class="fas fa-calculator" aria-hidden="true"></i>
-                Fontana y Asociados
+            <a href="index.html" class="logo" aria-label="Fontana y Asociados">
+                <img src="img/photos/logo-Photoroom.png" alt="Fontana y Asociados" width="180" height="60">
             </a>
             
             <ul class="nav-menu">
@@ -49,14 +49,18 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero hero--home" data-parallax="0.12"><!-- Hero full viewport listo para background -->
-        <div class="hero-content container">
-            <h1 class="fade-in">Tu Estudio Contable de Confianza</h1>
-            <p class="fade-in">Brindamos servicios profesionales de contabilidad, auditoría y consultoría fiscal con más de 20 años de experiencia en el mercado argentino.</p>
-            <div class="hero-actions fade-in">
-                <a href="servicios.html" class="btn">Nuestros Servicios</a>
-                <a href="contacto.html" class="btn btn-secondary">Contactanos</a>
+    <section class="hero hero--home hero--landing" data-parallax="0.12"><!-- Hero renovado -->
+        <div class="hero-brand" aria-labelledby="hero-title">
+            <img src="img/photos/logo.png" alt="Fontana y Asociados" class="hero-brand__logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div class="hero-brand__placeholder" style="display:none;">
+                <h1 class="hero-brand__title">Fontana y Asociados</h1>
+                <p class="hero-brand__subtitle">Logo no disponible temporalmente</p>
             </div>
+        </div>
+        <div class="hero-card">
+            <h1 id="hero-title" class="hero-card__title">Asesoría contable integral para empresas y profesionales.</h1>
+            <p class="hero-card__subtitle">Te acompañamos en cada decisión financiera con transparencia y compromiso.</p>
+            <a href="servicios.html" class="hero-cta">Conocé nuestros servicios</a>
         </div>
     </section>
 
@@ -141,32 +145,26 @@
             <div class="team-grid">
                 <div class="team-member fade-in">
                     <div class="team-photo">
-                        <picture>
-                            <img src="img/photos/carlos-fontana.jpg" alt="Dr. Carlos Fontana - Contador Público y Socio Fundador" loading="lazy" class="team-photo-img">
-                        </picture>
+                        <i class="fas fa-user-circle" aria-hidden="true"></i>
                     </div>
-                    <h4>Dr. Carlos Fontana</h4>
-                    <p>Contador Público - Socio Fundador</p>
+                    <h4>Socio 1</h4>
+                    <p>Dirección General y Consultoría</p>
                 </div>
                 
                 <div class="team-member fade-in">
                     <div class="team-photo">
-                        <picture>
-                            <img src="img/photos/maria-gonzalez.jpg" alt="Lic. María González - Contadora Pública y Socia" loading="lazy" class="team-photo-img">
-                        </picture>
+                        <i class="fas fa-user-circle" aria-hidden="true"></i>
                     </div>
-                    <h4>Lic. María González</h4>
-                    <p>Contadora Pública - Socia</p>
+                    <h4>Socio 2</h4>
+                    <p>Planificación Fiscal y Auditoría</p>
                 </div>
                 
                 <div class="team-member fade-in">
                     <div class="team-photo">
-                        <picture>
-                            <img src="img/photos/roberto-silva.jpg" alt="Lic. Roberto Silva - Contador Público y Auditor" loading="lazy" class="team-photo-img">
-                        </picture>
+                        <i class="fas fa-user-circle" aria-hidden="true"></i>
                     </div>
-                    <h4>Lic. Roberto Silva</h4>
-                    <p>Contador Público - Auditor</p>
+                    <h4>Socio 3</h4>
+                    <p>Gestión Financiera y Control</p>
                 </div>
             </div>
             
@@ -211,7 +209,7 @@
                         <span class="sr-only">Email</span>
                     </div>
                     <h4>Email</h4>
-                    <p>info@fontanayasociados.com<br>contacto@fontanayasociados.com</p>
+                    <p>info@fontanayasociados.com</p>
                 </div>
             </div>
             

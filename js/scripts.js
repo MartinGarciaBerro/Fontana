@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function initWhatsAppButton() {
         if (whatsappBtn) {
             whatsappBtn.addEventListener('click', function() {
-                const phoneNumber = '5491123456789'; // Cambiar por el número real
+                const phoneNumber = '5491159198268';
                 const message = encodeURIComponent('Hola, me interesa conocer más sobre los servicios de Fontana y Asociados.');
                 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
                 window.open(whatsappUrl, '_blank');
